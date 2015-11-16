@@ -1,0 +1,421 @@
+/*!
+ * Start Bootstrap - Grayscale Bootstrap Theme (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+body {
+    width: 100%;
+    height: 100%;
+    font-family: Lora,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    overflow-x:hidden;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 35 0 35px;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+p {
+    margin: 0 0 25px;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+
+.connecting-line {
+    height: 70px;
+    width: 2px;
+    background: #e0e0e0;
+    position: relative;
+    z-index: 1;
+}
+
+.connecting-line-horizontal {
+    height: 2px;
+    width: 60%;
+    background: #e0e0e0;
+    position:relative;
+    z-index: 1;
+    margin-top: 20px;
+    margin-bottom:20px;
+}
+
+
+
+.background-picture{
+    height: 100%;
+    width: 100%;
+    display: table;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+
+.intro {
+    text-align: center;
+    color: #fff;
+    padding: 100px 0;
+    background: url(../img/sakura-mountain.jpg) no-repeat top center;
+    background-size: 100% auto;
+}
+
+body.opacity-overlay{
+    z-index: 2;
+    background-color: black;
+    opacity: 0.5; 
+    -webkit-filter: grayscale(100%) sepia(100%); 
+}
+
+.intro .intro-body {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.intro .intro-body .brand-heading {
+    font-size: 40px;
+}
+
+
+.intro .intro-body .intro-arrow {
+    font-size: 13px;
+    text-transform: uppercase;
+    margin-top: 15px;
+    margin-bottom: 10px;
+   
+}
+
+.btn {
+    border-radius: 0;
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 400;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+
+.btn-circle {
+    width: 50px;
+    height: 50px;
+    padding: 7px 10px;
+    border: 1px solid #fff;
+    border-radius: 100%!important;
+    font-size: 20px;
+    color: #fff;
+    background: 0 0;
+    -webkit-transition: background .3s ease-in-out;
+    -moz-transition: background .3s ease-in-out;
+    transition: background .3s ease-in-out;
+}
+
+.btn-circle:hover,
+.btn-circle:focus {
+    outline: 0;
+    color: #fff;
+    background: rgba(255,255,255,.1);
+}
+
+
+.quote{
+    font-style: italic;
+    text-align: center;
+    background-color:  #FFFFFF;
+    height: 70vh;
+    padding: 30px 0;
+
+}
+
+.quote-background {
+    background: url(../img/cologne.jpg) no-repeat bottom center fixed;
+    background-size: 100% auto;
+}
+
+.quote-text{
+    margin-top: 20px;
+}
+.quote-credit {
+    font-size: 15px;
+    color:  #808080;
+}
+
+
+
+
+.download-text-column{
+    margin-top:400px;
+    text-align: left;
+    background-color: #FFFFFF;
+}
+
+.article{
+    padding: 35px 0;
+    margin-top:20px;
+}
+
+.picture{
+    padding:0;
+}
+
+.overflow-hidden{
+    overflow: hidden;
+}
+
+.half-picture{
+    height: 100vh;
+    background: url(../img/sakura.jpg) no-repeat bottom center;
+    background-size: 100% auto;
+}
+
+.greenhouse{
+    height:50vh;
+    background: url(../img/greenhouse.jpg) no-repeat bottom center;
+    background-size: 100% 100%;
+
+}
+
+.food{
+    height: 50vh;
+    background: url(../img/food.jpg) no-repeat bottom center; 
+    background-size: 100% 100%;
+}
+
+.social{
+    margin-top:20px;
+    margin-bottom:20px;
+}
+
+a.social{
+    text-align: center;
+    font-size: 20px;
+    display:inline-block;
+    width: 50px;
+    height: 30px;
+    color:  #000000;
+}
+
+a.social:hover{
+    width: 50px;
+    height: 30px;
+    color:  #000000;
+    cursor: pointer;
+}
+
+a.social-facebook:hover{
+    background-color: blue;
+}
+
+a.social-twitter:hover{
+    background-color: #4099FF;
+}
+
+a.social-google-plus:hover{
+    background-color: #d34836;
+}
+a.social-send:hover{
+    background-color: #696969;
+    color: white;
+}
+
+.mountain{
+    height: 50vh;
+    background: url(../img/mountain.jpg) no-repeat bottom center; 
+    background-size: 100% 100%;
+}
+.garden{
+    height: 50vh;
+    background: url(../img/garden.jpg) no-repeat bottom center; 
+    background-size: 100% 100%;
+}
+.park{
+    height: 50vh;
+    background: url(../img/park.jpg) no-repeat bottom center; 
+    background-size: 100% 100%;
+}
+section.read-more{
+    text-align: center;
+    color:white;
+}
+
+div.read-more {
+    position: absolute;
+    bottom: 0;
+    left:0;
+    right:0;
+}
+
+section.read-more:hover{
+    cursor: pointer;
+}
+
+p.read-more{
+    display: none;
+}
+
+a.read-more{
+    color:#8B0000;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+p.read-more:hover{
+    text-decoration: underline;
+}
+
+
+div.audi-link{
+    margin-top: 20px;
+    margin-bottom:20px;
+}
+
+a.audi-link{
+    color:gray;
+    margin: 10px 10px;
+}
+
+a.audi-link:hover{
+    color:red;
+    text-decoration: none;
+}
+
+h5.audi-link-list{
+    text-align: left;
+}
+
+ul{
+    text-align: left;
+    list-style-type: none;
+}
+
+
+.copyright{
+    color:gray;
+    font-size: 10px;
+    margin-top: 30px;
+}
+
+footer{
+    margin-bottom: 40px;
+}
+
+
+.btn-circle i.animated {
+    -webkit-transition-property: -webkit-transform;
+    -webkit-transition-duration: 1s;
+    -moz-transition-property: -moz-transform;
+    -moz-transition-duration: 1s;
+}
+
+.btn-circle:hover i.animated {
+    -webkit-animation-name: pulse;
+    -moz-animation-name: pulse;
+    -webkit-animation-duration: 1.5s;
+    -moz-animation-duration: 1.5s;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    -moz-animation-timing-function: linear;
+}
+
+
+div.animated {
+    -webkit-transition-property: -webkit-transform;
+    -webkit-transition-duration: 1s;
+    -moz-transition-property: -moz-transform;
+    -moz-transition-duration: 1s;
+}
+div.animated:hover {
+    -webkit-animation-name: picture;
+    -moz-animation-name: picture;
+    -webkit-animation-duration: 1.5s;
+    -moz-animation-duration: 1.5s;
+    -webkit-animation-timing-function: linear;
+    -moz-animation-timing-function: linear;
+}
+
+@-webkit-keyframes picture {    
+    0% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+
+    50% {
+        -webkit-transform: scale(1.05);
+        transform: scale(1.05);
+    }
+
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+@-moz-keyframes picture {    
+    0% {
+        -moz-transform: scale(1);
+        transform: scale(1);
+    }
+
+    50% {
+        -moz-transform: scale(1.05);
+        transform: scale(1.05);
+    }
+
+    100% {
+        -moz-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+@-webkit-keyframes pulse {    
+    0% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+
+    50% {
+        -webkit-transform: scale(1.2);
+        transform: scale(1.2);
+    }
+
+    100% {
+        -webkit-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+@-moz-keyframes pulse {    
+    0% {
+        -moz-transform: scale(1);
+        transform: scale(1);
+    }
+
+    50% {
+        -moz-transform: scale(1.2);
+        transform: scale(1.2);
+    }
+
+    100% {
+        -moz-transform: scale(1);
+        transform: scale(1);
+    }
+}
+
+
+
