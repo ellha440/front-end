@@ -279,22 +279,22 @@ p.read-more:hover{
 }
 
 
-div.audi-link{
+div.ipsum-link{
     margin-top: 20px;
     margin-bottom:20px;
 }
 
-a.audi-link{
+a.ipsum-link{
     color:gray;
     margin: 10px 10px;
 }
 
-a.audi-link:hover{
+a.ipsum-link:hover{
     color:red;
     text-decoration: none;
 }
 
-h5.audi-link-list{
+h5.ipsum-link-list{
     text-align: left;
 }
 
